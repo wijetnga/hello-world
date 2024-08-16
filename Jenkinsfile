@@ -1,7 +1,8 @@
 pipeline {
-  agent {
-    docker { image 'alpine/git' }
-  }
+  agent any 
+//{
+//    docker { image 'alpine/git' }
+//  }
   stages {
     stage('Test') {
       steps {
