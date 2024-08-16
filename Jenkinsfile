@@ -7,7 +7,7 @@ pipeline {
     stage('Test') {
       steps {
         sh '''
-        node --version
+ #       node --version
         ls -la
         pwd
         cat helloWorld/configMap.yaml
