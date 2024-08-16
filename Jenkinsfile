@@ -9,6 +9,8 @@ pipeline {
         script{ 
           withCredentials([usernamePassword(credentialsId: '500c80a5-1066-4ad1-b5cc-ca025575ee56', passwordVariable: 'GIT_PASSWORD', usernameVariable: 'GIT_USERNAME')]) {
           sh '''
+          git config --global user.name "${GIT_USERNAME}"
+          git config --global user.password "${GIT_PASSWORD}"
  #         node --version
           ls -la
           pwd
