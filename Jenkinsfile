@@ -6,7 +6,6 @@ pipeline {
     stage('Test') {
       steps {
         sh '''
-        sudo apk add git
         node --version
         ls -la
         pwd
