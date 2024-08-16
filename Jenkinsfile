@@ -9,7 +9,7 @@ pipeline {
         node --version
         ls -la
         pwd
-        cat helloWorld/deploy.yaml
+        cat /var/lib/jenkins/workspace/TestProject2/helloWorld/deploy.yaml
         '''
       }
     }
