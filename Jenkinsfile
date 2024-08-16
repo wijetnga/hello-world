@@ -9,6 +9,7 @@ pipeline {
         node --version
         ls -la
         pwd
+        cat helloWorld/deploy.yaml
         '''
       }
     }
