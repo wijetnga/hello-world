@@ -3,5 +3,5 @@ kind: ConfigMap
 metadata:
   name: the-map
 data:
-  altGreeting: "Good Afternoon Pussaaaaaaaaaaaaaa!"
+  altGreeting: "Good GoodMorning Pussaaaaaaaaaaaaaa!"
   enableRisky: "false"
